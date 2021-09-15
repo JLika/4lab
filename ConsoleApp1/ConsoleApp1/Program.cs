@@ -42,12 +42,19 @@ namespace ConsoleApp1
         }
 
 
+
         public static void del(int a, int b)
         {
             Console.WriteLine($" Результат: {a} / {b} = " + (a / b));
 
         }
 
+
+
+        public static void umnoj(int a, int b)
+        {
+            Console.WriteLine($" Результат: {a} * {b} = " + (a * b));
+        }
 
     }
 }
