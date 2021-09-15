@@ -21,6 +21,21 @@ namespace ConsoleApp1
             Console.WriteLine();
             k = Convert.ToString(Console.ReadLine());
 
+            switch (k)
+            {
+                case "+":
+                    plus(a,b);
+                    break;
+                case "-":
+                    minus(a, b);
+                    break;
+                case "*":
+                    umnoj(a, b);
+                    break;
+                case "/":
+                    del(a, b);
+                    break;
+            }
 
         }
     }
