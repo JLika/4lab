@@ -23,5 +23,11 @@ namespace ConsoleApp1
 
 
         }
+
+
+        public void del(int a, int b)
+        {
+            Console.WriteLine($" Результат: {a} / {b} = " + (a / b));
+        }
     }
 }
