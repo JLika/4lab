@@ -39,9 +39,20 @@ namespace ConsoleApp1
 
         }
 
-        public void plus(int a, int b)
+
+        public static void plus(int a, int b)
         {
             Console.WriteLine($" Результат: {a} + {b} = " + (a + b));
+
         }
+
+
+        public static void del(int a, int b)
+        {
+            Console.WriteLine($" Результат: {a} / {b} = " + (a / b));
+
+        }
+
+
     }
 }
